@@ -1,0 +1,39 @@
+{
+  "name": "polinrider-cleaner",
+  "version": "0.1.0",
+  "description": "Find and remove the PolinRider malware injection from every GitHub repo and branch you can reach",
+  "type": "module",
+  "bin": {
+    "polinrider-cleaner": "polinrider-cleaner.mjs"
+  },
+  "files": [
+    "polinrider-cleaner.mjs"
+  ],
+  "scripts": {
+    "test": "node --test test/polinrider-cleaner.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "malware",
+    "security",
+    "incident-response",
+    "github",
+    "supply-chain",
+    "force-push",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ym-scripts/polinrider-cleaner.git"
+  },
+  "homepage": "https://github.com/ym-scripts/polinrider-cleaner#readme",
+  "bugs": "https://github.com/ym-scripts/polinrider-cleaner/issues",
+  "author": {
+    "name": "Aghogho Meyoron",
+    "email": "youngmayor.dev@gmail.com",
+    "url": "https://youngmayor.mlabs.ng"
+  },
+  "license": "MIT"
+}
